@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffaf5;
+  color: #333;
+}
+
+header {
+  background: #d4af37;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('images/hero.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.btn {
+  background: #d4af37;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.collection, .gallery {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.item, .gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.contact-form {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #d4af37;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
